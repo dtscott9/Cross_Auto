@@ -1,0 +1,180 @@
+.hero_image_specs {
+    width:1409px;
+    /* height:400px; */
+    padding-top:10px;
+    padding-bottom: 10px;
+
+  }
+
+  /* Sub photos */
+
+.sub_truck{
+    width:350px;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 250px;
+    top:320px;
+}
+.sub_coupes{
+    width:350px;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 800px;
+    top:450px;
+}
+.sub_hatchbacks{
+    width:350px;
+    height:90px;
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 250px;
+    top:200px;
+}
+.sub_electric{
+    width:350px;
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 250px;
+    top:450px;
+}
+.sub_sedans{
+    width:350px;
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 800px;
+    top:320px;
+}
+.sub_suvs{
+    width:350px;
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 800px;
+    top:200px;
+}
+
+
+  body{
+    background-color: rgb(189, 189, 189);
+  }
+
+
+  .white_noise{
+    padding-top:500px;
+  }
+
+
+.left-button{
+    height:302px;
+    width:190px;
+    cursor: pointer;
+    margin:auto;
+    font-size: 2em;
+    background-color: rgb(88, 168, 253, 0.5);
+    color: black;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: 1100px;
+    left:-114px;
+    top:0px;
+}
+.right-button{
+    height:302px;
+    width:190px;
+    cursor: pointer;
+    margin:auto;
+    font-size: 2em;
+    background-color: rgb(88, 168, 253, 0.5);
+    color: black;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    right: -165px;
+    left:1060px;
+    bottom:10px;
+    top:0px;
+
+}
+
+img.left-button{
+    width:80px;
+    height:700px;
+    cursor: pointer;
+   
+}
+img.right-button{
+    width:80px;
+    height:700px;
+    cursor: pointer;
+
+
+}
+
+.carousel{
+    display:flex;
+    margin:0 auto;
+    width:1400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    
+}
+
+.slide{
+    width: 300px;
+    height: 300px;
+    border:1px solid black;
+    margin: 0 20px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+
+}
+
+.slide img{
+    width:300px;
+    height:300px;
+}
+
+.carousel-placement{
+    position: relative;
+    z-index: 999;
+    margin: 0 auto;
+    /* right:0%; */
+    text-align: center;
+     /* Adjust this value to move the positioned div up and down */
+
+}
+
+/* chatbox */
+
+.chatbox-wrapper{
+    position:fixed;
+    bottom:2rem;
+    right:2rem;
+    width:4rem;
+    height:4rem;
+}
+
+.chatbox-toggle{
+    width:100%;
+    height:100%;
+    background:var(--blue);
+    color:var(--white);
+    font-size:2rem;
+    display:flex;
+    align-items:center;
+    border: 50%;
+}
+
+/* chatbox */
