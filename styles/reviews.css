@@ -1,0 +1,17 @@
+.reviews {
+    display: grid;
+}
+
+.reviews__card {
+    max-width: 250px;
+    padding: 7.5px;
+    /* grid-row: 1; */
+    /* grid-column: 1; */
+    text-align: center;
+}
+
+/* .reviews__content {} */
+
+/* .reviews__content-name {} */
+
+/* .reviews__content-city {} */
