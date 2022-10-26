@@ -4,11 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com'boxicons@2.1.1/css/boxicons.min.css">
     <link rel="stylesheet" href="styles/home.css">
 
     <title>Home Page</title>
 </head>
 <body>
+
+            <!-- chat box -->
+            <div class="chatbox-wrapper">
+                <div class="chatbox-toggle">
+                    <i class="bx bx-message-dots"></i>
+                </div>
+                    <div class="chatbox-message-wrapper">
+                        <div class="chatbox-message-header">
+                            <div class="chatbox-message-profile">
+                                <img src="images/chat_box_user.jpg" alt="" class="chatbox-message-image">
+                                <div>
+                                    <h4 class="chatbox-message-name">
+                                        Grant Cross
+                                    </h4>
+                                    <p class="chatbox-message-status">
+                                        online
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="chatbox-message-dropdown">
+                                <i class="bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle"></i>
+                                <ul class="chatbox-message-dropdown-menu">
+                                    <li>
+                                        <a href="#">Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Report</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="chatbox-message-contnet">
+                            <div class="chatbox-message-item sent">
+                                <span class="chatbox-message-item-text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aspernatur?
+                                </span>
+                                <span class="chatbox-message-item-time">
+                                    8:30
+                                </span>
+                            </div>
+                            <div class="chatbox-message-item recieved">
+                                <span class="chatbox-message-item-text">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aspernatur?
+                                </span>
+                                <span class="chatbox-message-item-time">
+                                    8:30
+                                </span>
+                            </div>
+                        </div>
+                        <div class="chatbox-message-bottom">
+                            <form action="#" class="chatbox-message-form">
+                                <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+                                <button type="submit" class="chatbox-message-submit"><img src="" alt=""></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+    <!-- end chatbox -->
       
     <div>
         <img class="hero_image_specs" src="images/car_hero.jpg" alt="hero_image">
@@ -60,64 +121,6 @@
                 </div>
             <button class="right-button"  onclick="goRight()">Forward</button>
         </div>
-    </div>
-            <!-- chat box -->
-    <div class="chatbox-wrapper">
-        <div class="chatbox-toggle">
-            <img class="message-dots" src="" alt="">
-        </div>
-            <div class="chatbox-message-wrapper">
-                <div class="chatbox-message-header">
-                    <div class="chatbox-message-profile">
-                        <img src="images/chat_box_user.jpg" alt="">
-                        <div>
-                            <h4 class="chatbox-message-name">
-                                Grant Cross
-                            </h4>
-                            <p class="chatbox-message-status">
-                                online
-                            </p>
-                        </div>
-                    </div>
-                    <div class="chatbox-message-dropdown">
-                        <img src="" alt="">
-                        <ul class="chatbox-message-dropdown-menu">
-                            <li>
-                                <a href="#">Search</a>
-                            </li>
-                            <li>
-                                <a href="#">Report</a>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                </div>
-                <div class="chatbox-message-contnet">
-                    <div class="chatbox-message-item sent">
-                        <span class="chatbox-message-item-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aspernatur?
-                        </span>
-                        <span class="chatbox-message-item-time">
-                            8:30
-                        </span>
-                    </div>
-                    <div class="chatbox-message-item recieved">
-                        <span class="chatbox-message-item-text">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aspernatur?
-                        </span>
-                        <span class="chatbox-message-item-time">
-                            8:30
-                        </span>
-                    </div>
-                </div>
-                <div class="chatbox-message-bottom">
-                    <form action="#" class="chatbox-message-form">
-                        <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
-                        <button type="submit" class="chatbox-message-submit"><img src="" alt=""></button>
-                    </form>
-                </div>
-            </div>
-        </div>    
     </div>
 
 <script src="script/home.js"></script>
