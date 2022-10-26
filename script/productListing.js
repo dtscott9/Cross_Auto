@@ -19,8 +19,10 @@ fetch(json)
     let price = document.createElement('h2');
     let miles = document.createElement('p');
     let cardBottom = document.createElement('div');
+    let cardLink = document.createElement('a');
     image.setAttribute('src', vehicles.image)
     image.setAttribute('alt', vehicles.make + ' ' + vehicles.model)
+    cardLink.setAttribute('href', "../index.html");
     make_year.textContent = vehicles.year + ' ' + vehicles.make;
     model.textContent = vehicles.model;
     miles.textContent = vehicles.miles + ' ' + 'mi';
@@ -33,6 +35,8 @@ fetch(json)
     cardBottom.appendChild(miles);
     displayCard.appendChild(image);
     displayCard.appendChild(cardBottom);
+    cardLink.appendChild(displayCard);
 
-    document.querySelector(".productCard").appendChild(displayCard);
+    document.querySelector(".productCard").appendChild(cardLink);
   }
+

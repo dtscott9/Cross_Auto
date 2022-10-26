@@ -231,7 +231,8 @@ footer nav ul li {
 }
 
 body {
-  background-color: rgb(189, 189, 189);
+  /* background-color: rgb(189, 189, 189); */
+  background-color: white;
 }
 
 /* Carousel */
@@ -343,6 +344,11 @@ img.right-button {
 
 /* Product Listings */
 
+.listingsHeader {
+  padding: 1em;
+  font-family: var(--main-font);
+}
+
 .productCard img {
   width: 300px;
 }
@@ -355,11 +361,17 @@ img.right-button {
   font-family: var(--main-font);
 }
 
+.productCard a {
+  text-decoration: none;
+  color: black;
+}
+
 .productCard img {
   padding: 0;
   border-radius: 10px 10px 0 0;
   width: 300px;
   height: 200px;
+  background-color: rgb(126, 126, 126);
 }
 
 .productCard section {
@@ -371,6 +383,14 @@ img.right-button {
   border-color: #9a9b9b;
   width: 300px;
   height: 400px;
+  transition: all 1s ease 0s;
+}
+
+.productCard section:hover {
+  opacity: .5;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+  background-color: rgb(126, 126, 126);
 }
 
 .productCard section p, h3, h2, h1 {
