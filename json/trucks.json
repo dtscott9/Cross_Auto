@@ -1,0 +1,84 @@
+{
+  "trucks": [
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    },
+    {
+      "image": "images/fordf150",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990"
+    }
+  ]
+}
