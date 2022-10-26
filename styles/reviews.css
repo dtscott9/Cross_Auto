@@ -2,11 +2,35 @@
     display: grid;
 }
 
-.reviews__card {
-    max-width: 250px;
+#reviews__card_i {
+    /* max-width: 250px; */
     padding: 7.5px;
-    /* grid-row: 1; */
-    /* grid-column: 1; */
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+}
+
+#reviews__card_ii {
+    /* max-width: 250px; */
+    padding: 7.5px;
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+}
+
+#reviews__card_iii {
+    /* max-width: 250px; */
+    padding: 7.5px;
+    grid-row: 2;
+    grid-column: 1;
+    text-align: center;
+}
+
+#reviews__card_iv {
+    /* max-width: 250px; */
+    padding: 7.5px;
+    grid-row: 2;
+    grid-column: 2;
     text-align: center;
 }
 
