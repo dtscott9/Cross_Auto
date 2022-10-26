@@ -1,180 +1,412 @@
+:root {
+  /* Settings */
+  --spacing: 15px;
+  --font-size: 1.15rem;
+  /* Colors */
+  --background-color: #ffffff;
+  --alt-background-color: #034a83;
+  --font-color: #022542;
+  --alt-font-color: #e6edf3;
+  --border-color: #022542;
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --alt-font: "Oswald", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* Header and Footer */
+
+header {
+  --main-font: "Roboto", sans-serif;
+  --alt-font: "Oswald", sans-serif;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto 1fr;
+  font-size: var(--font-size);
+  padding: var(--spacing);
+  border-bottom: 1px solid var(--border-color);
+  color: var(--alt-font-color);
+  background-color: var(--alt-background-color);
+}
+
+header,
+footer {
+  font-family: var(--alt-font);
+  font-weight: bold;
+}
+
+header #logo-wrapper {
+  display: flex;
+  align-items: center;
+  grid-row: 1;
+  grid-column: 1;
+}
+
+header a {
+  color: var(--alt-font-color);
+}
+
+#logo {
+  max-width: 200px;
+}
+
+header #company-name {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  margin-left: 7.5px;
+}
+
+header nav {
+  grid-row: 1;
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 7.5px;
+  margin-right: 7.5px;
+}
+
+main {
+  flex: 1;
+  font-size: var(--font-size);
+  font-family: var(--main-font);
+  padding-top: var(--spacing);
+  padding-bottom: var(--spacing);
+  padding-left: 250px;
+  padding-right: 250px;
+  color: var(--font-color);
+  background-color: var(--background-color);
+}
+
+footer {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr auto;
+  font-size: var(--font-size);
+  border-top: 1px solid var(--border-color);
+  padding: var(--spacing);
+  color: var(--alt-font-color);
+  background-color: var(--alt-background-color);
+}
+
+footer a {
+  color: var(--alt-font-color);
+}
+
+footer #legal {
+  grid-row: 1;
+  grid-column: 1;
+  display: flex;
+  align-items: center;
+}
+
+footer nav {
+  grid-row: 1;
+  grid-column: 2;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+footer nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding: 7.5px;
+  margin-right: 7.5px;
+}
+
+/* Sub photos */
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.carSelection {
+  width: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  grid-column: 2/4;
+  grid-row: 2/4;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.makesRowA {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.makesRowB {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
+.makesRowC {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 10px;
+}
+
 .hero_image_specs {
-    width:1409px;
-    /* height:400px; */
-    padding-top:10px;
-    padding-bottom: 10px;
-
-  }
-
-  /* Sub photos */
-
-.sub_truck{
-    width:350px;
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 250px;
-    top:320px;
-}
-.sub_coupes{
-    width:350px;
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 800px;
-    top:450px;
-}
-.sub_hatchbacks{
-    width:350px;
-    height:90px;
-
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 250px;
-    top:200px;
-}
-.sub_electric{
-    width:350px;
-
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 250px;
-    top:450px;
-}
-.sub_sedans{
-    width:350px;
-
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 800px;
-    top:320px;
-}
-.sub_suvs{
-    width:350px;
-
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 800px;
-    top:200px;
+  width: 1409px;
+  margin: 0 auto;
+  grid-column: 1/3;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/5;
+  grid-row: 1/5;
+  z-index: 0;
 }
 
-
-  body{
-    background-color: rgb(189, 189, 189);
-  }
-
-
-  .white_noise{
-    padding-top:500px;
-  }
-
-
-.left-button{
-    height:302px;
-    width:190px;
-    cursor: pointer;
-    margin:auto;
-    font-size: 2em;
-    background-color: rgb(88, 168, 253, 0.5);
-    color: black;
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: 1100px;
-    left:-114px;
-    top:0px;
+.sub_truck {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  margin: 0 auto;
 }
-.right-button{
-    height:302px;
-    width:190px;
-    cursor: pointer;
-    margin:auto;
-    font-size: 2em;
-    background-color: rgb(88, 168, 253, 0.5);
-    color: black;
-    position: absolute;
-    z-index: 999;
-    margin: 0 auto;
-    right: -165px;
-    left:1060px;
-    bottom:10px;
-    top:0px;
-
+.sub_coupes {
+  width: 100%;
+  z-index: 100%;
+  margin: 0 auto;
+}
+.sub_hatchbacks {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  margin: 0 auto;
+}
+.sub_electric {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  margin: 0 auto;
+}
+.sub_sedans {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  margin: 0 auto;
+}
+.sub_suvs {
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  margin: 0 auto;
 }
 
-img.left-button{
-    width:80px;
-    height:700px;
-    cursor: pointer;
-   
-}
-img.right-button{
-    width:80px;
-    height:700px;
-    cursor: pointer;
-
-
+body {
+  /* background-color: rgb(189, 189, 189); */
+  background-color: white;
 }
 
-.carousel{
-    display:flex;
-    margin:0 auto;
-    width:1400px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;
-    
+/* Carousel */
+
+.white_noise {
+  padding-top: 500px;
 }
 
-.slide{
-    width: 300px;
-    height: 300px;
-    border:1px solid black;
-    margin: 0 20px;
-    flex-shrink: 0;
-    scroll-snap-align: start;
-
+.left-button {
+  height: 302px;
+  width: 190px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 45px;
+  background-color: rgba(102, 102, 102, 0.5);
+  /* background-color: rgb(88, 168, 253, 0.5); */
+  color: white;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  right: 1100px;
+  left: -114px;
+  top: 0px;
+}
+.right-button {
+  height: 302px;
+  width: 190px;
+  cursor: pointer;
+  margin: auto;
+  font-size: 45px;
+  /* background-color: rgb(88, 168, 253, 0.5); */
+  background-color: rgba(75, 75, 75, 0.5);
+  color: white;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  right: -165px;
+  left: 1060px;
+  bottom: 10px;
+  top: 0px;
 }
 
-.slide img{
-    width:300px;
-    height:300px;
+/* img.left-button {
+  width: 80px;
+  height: 700px;
+  cursor: pointer;
+}
+img.right-button {
+  width: 80px;
+  height: 700px;
+  cursor: pointer;
+} */
+
+.carousel {
+  display: flex;
+  margin: 0 auto;
+  width: 1400px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
 }
 
-.carousel-placement{
-    position: relative;
-    z-index: 999;
-    margin: 0 auto;
-    /* right:0%; */
-    text-align: center;
-     /* Adjust this value to move the positioned div up and down */
+.slide {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 0 20px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
 
+.slide img {
+  width: 300px;
+  height: 300px;
+}
+
+.carousel-placement {
+  position: relative;
+  z-index: 999;
+  margin: 10px auto;
+  /* right:0%; */
+  text-align: center;
+  /* Adjust this value to move the positioned div up and down */
 }
 
 /* chatbox */
 
-.chatbox-wrapper{
-    position:fixed;
-    bottom:2rem;
-    right:2rem;
-    width:4rem;
-    height:4rem;
+.chatbox-wrapper {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
 }
 
-.chatbox-toggle{
-    width:100%;
-    height:100%;
-    background:var(--blue);
-    color:var(--white);
-    font-size:2rem;
-    display:flex;
-    align-items:center;
-    border: 50%;
+.chatbox-toggle {
+  width: 100%;
+  height: 100%;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  border: 50%;
 }
 
 /* chatbox */
+
+/* Product Listings */
+
+.listingsHeader {
+  padding: 1em;
+  font-family: var(--main-font);
+}
+
+.productCard img {
+  width: 300px;
+}
+
+.productCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--main-font);
+}
+
+.productCard a {
+  text-decoration: none;
+  color: black;
+}
+
+.productCard img {
+  padding: 0;
+  border-radius: 10px 10px 0 0;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(126, 126, 126);
+}
+
+.productCard section {
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #9a9b9b;
+  width: 300px;
+  height: 400px;
+  transition: all 1s ease 0s;
+}
+
+.productCard section:hover {
+  opacity: 0.5;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+  background-color: rgb(126, 126, 126);
+}
+
+.productCard section p,
+h3,
+h2,
+h1 {
+  padding-left: 10px;
+}
+
+.productCard section div {
+  align-items: center;
+}
+
+/* Product Page */
+
+.productInfo {
+  text-align: center;
+  font-family: var(--main-font);
+}
