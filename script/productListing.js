@@ -1,0 +1,38 @@
+const json = "json/trucks.json";
+//Fetching JSON data
+fetch(json)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);
+    const vehicles = jsonObject["vehicles"];
+    vehicles.forEach(displayVehicles);
+  });
+
+  function displayVehicles(vehicles) {
+    //Creating html elements
+    let displayCard = document.createElement('section');
+    let image = document.createElement('img');
+    let make_year = document.createElement('h1');
+    let model = document.createElement('p');
+    let price = document.createElement('h2');
+    let miles = document.createElement('p');
+    let cardBottom = document.createElement('div');
+    image.setAttribute('src', vehicles.image)
+    image.setAttribute('alt', vehicles.make + ' ' + vehicles.model)
+    make_year.textContent = vehicles.year + ' ' + vehicles.make;
+    model.textContent = vehicles.model;
+    miles.textContent = vehicles.miles + ' ' + 'mi';
+    price.textContent = vehicles.price
+
+    //Appending the elements
+    cardBottom.appendChild(make_year);
+    cardBottom.appendChild(model);
+    cardBottom.appendChild(price);
+    cardBottom.appendChild(miles);
+    displayCard.appendChild(image);
+    displayCard.appendChild(cardBottom);
+
+    document.querySelector(".productCard").appendChild(displayCard);
+  }
