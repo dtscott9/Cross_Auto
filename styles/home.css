@@ -144,10 +144,10 @@ footer nav ul li {
 /* Sub photos */
 
 .banner {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
 }
 
 .carSelection {
@@ -387,17 +387,26 @@ img.right-button {
 }
 
 .productCard section:hover {
-  opacity: .5;
+  opacity: 0.5;
   transition: all 1s ease 0s;
   cursor: pointer;
   background-color: rgb(126, 126, 126);
 }
 
-.productCard section p, h3, h2, h1 {
+.productCard section p,
+h3,
+h2,
+h1 {
   padding-left: 10px;
 }
 
 .productCard section div {
   align-items: center;
- 
+}
+
+/* Product Page */
+
+.productInfo {
+  text-align: center;
+  font-family: var(--main-font);
 }
