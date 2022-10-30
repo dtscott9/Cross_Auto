@@ -1,28 +1,9 @@
-.reviews {
-    display: grid;
+#reviews {
+    flex-wrap: wrap;
 }
 
-.reviews_card {
-    margin: 50px;
-    padding: 20px;
-}
-
-#reviews__card_i {
-    grid-row: 1;
-    grid-column: 1;
-}
-
-#reviews__card_ii {
-    grid-row: 1;
-    grid-column: 2;
-}
-
-#reviews__card_iii {
-    grid-row: 2;
-    grid-column: 1;
-}
-
-#reviews__card_iv {
-    grid-row: 2;
-    grid-column: 2;
+#avatar {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
 }
