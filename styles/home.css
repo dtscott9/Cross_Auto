@@ -194,41 +194,13 @@ footer nav ul li {
   z-index: 0;
 }
 
-.sub_truck {
+.sub_vehicle {
   width: 100%;
   height: 100%;
   z-index: 999;
   margin: 0 auto;
 }
-.sub_coupes {
-  width: 100%;
-  z-index: 100%;
-  margin: 0 auto;
-}
-.sub_hatchbacks {
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  margin: 0 auto;
-}
-.sub_electric {
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  margin: 0 auto;
-}
-.sub_sedans {
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  margin: 0 auto;
-}
-.sub_suvs {
-  width: 100%;
-  height: 100%;
-  z-index: 999;
-  margin: 0 auto;
-}
+
 
 body {
   /* background-color: rgb(189, 189, 189); */

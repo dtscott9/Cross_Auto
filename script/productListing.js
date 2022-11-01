@@ -1,4 +1,8 @@
-const json = "json/trucks.json";
+"use strict";
+const jsonVar = localStorage.getItem("car");
+console.log(jsonVar);
+
+const json = `json/${jsonVar}.json`;
 //Fetching JSON data
 fetch(json)
   .then(function (response) {
