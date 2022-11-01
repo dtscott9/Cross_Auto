@@ -83,11 +83,5 @@ for (var i = 0; i < carSelection.length; i++) {
   });
 }
 
-let truck = document.getElementById("truck");
-let coup = document.getElementById("coupes");
-let hatchback = document.getElementById("hatchbacks");
-let electric = document.getElementById("electric");
-let suv = document.getElementById("suvs");
-let sedan = document.getElementById("sedans");
 
 
