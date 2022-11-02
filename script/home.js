@@ -79,7 +79,7 @@ for (var i = 0; i < carSelection.length; i++) {
   let carChoice = carSelection[i];
   carChoice.addEventListener("click", () => {
     console.log(carChoice.id);
-    localStorage.setItem("car", carChoice.id);
+    localStorage.setItem("type", carChoice.id);
   });
 }
 

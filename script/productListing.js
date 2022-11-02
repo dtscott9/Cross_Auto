@@ -1,5 +1,6 @@
 "use strict";
-const jsonVar = localStorage.getItem("car");
+const jsonVar = localStorage.getItem("type");
+localStorage.setItem("product", jsonVar);
 console.log(jsonVar);
 
 const json = `json/${jsonVar}.json`;
