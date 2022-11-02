@@ -362,9 +362,21 @@ h1 {
 /* Product Page */
 
 .productInfo {
-  text-align: center;
+  width: 500px;
+  margin: 0 auto;
   font-family: var(--main-font);
 }
+
+.make {
+  text-align: center;
+}
+
+.carImg {
+  width: 500px;
+}
+
+/* ChatBox */
+
 .chatbox-toggle{
     width:100%;
     height:100%;

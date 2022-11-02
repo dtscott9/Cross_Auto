@@ -3,6 +3,8 @@ const jsonVar = localStorage.getItem("type");
 localStorage.setItem("product", jsonVar);
 console.log(jsonVar);
 
+document.querySelector(".listingsHeader").textContent = `Used ${jsonVar}`;
+
 const json = `json/${jsonVar}.json`;
 //Fetching JSON data
 fetch(json)
@@ -43,5 +45,8 @@ fetch(json)
     cardLink.appendChild(displayCard);
 
     document.querySelector(".productCard").appendChild(cardLink);
-  }
 
+    cardLink.addEventListener("click", ()=>{
+      localStorage.setItem("productId", vehicles.id);
+    })
+  }
