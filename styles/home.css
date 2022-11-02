@@ -367,6 +367,11 @@ h1 {
   font-family: var(--main-font);
 }
 
+.productInfo hr {
+  background-color: #022542;
+  height: 1px;
+}
+
 .make {
   text-align: center;
 }
