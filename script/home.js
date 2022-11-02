@@ -3,6 +3,7 @@
 function goRight() {
   document.querySelector(".carousel").scrollLeft += 400;
 }
+
 const right_button = document.querySelector(".right-button");
 right_button.addEventListener("click", goRight);
 right_button.addEventListener("touchend", goRight);
@@ -24,7 +25,6 @@ function goRight3() {
 function goLeft3() {
   document.querySelector(".carousel3").scrollLeft -= 400;
 }
-// --------------
 
 function showVideos(group) {
   let genres = document.getElementById("genres");
