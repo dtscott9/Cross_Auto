@@ -2,12 +2,20 @@
     flex-wrap: wrap;
 }
 
-#avatar {
+.avatar {
     max-width: 50px;
     max-height: 50px;
+    border: 1px solid #022542;
     border-radius: 50%;
 }
 
-#stars {
+.nameloc {
+    position: relative;
+    bottom: 20px;
+    padding-left: 4px;
+}
+
+.nameloc img {
     max-width: 100px;
+    padding-left: 4px;
 }
