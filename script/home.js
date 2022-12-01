@@ -69,3 +69,19 @@ export async function loadHeaderFooter() {
 }
 
 loadHeaderFooter();
+
+
+
+let carSelection = document.getElementsByClassName("sub_vehicle");
+
+for (var i = 0; i < carSelection.length; i++) {
+
+  let carChoice = carSelection[i];
+  carChoice.addEventListener("click", () => {
+    console.log(carChoice.id);
+    localStorage.setItem("type", carChoice.id);
+  });
+}
+
+
+

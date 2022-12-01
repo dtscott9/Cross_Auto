@@ -1,0 +1,116 @@
+{
+  "vehicles": [
+    {
+      "id": "0",
+      "image": "../images/fordf150.jpg",
+      "make": "Ford",
+      "model": "F-150",
+      "year": "2004",
+      "miles": "60,000",
+      "price": "$17,990",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "1",
+      "image": "../images/ram.jpg",
+      "make": "Ram",
+      "model": "2500",
+      "year": "2007",
+      "miles": "45,000",
+      "price": "$19,000",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "2",
+      "image": "../images/tacoma.jpg",
+      "make": "Toyota",
+      "model": "Tacoma",
+      "year": "2012",
+      "miles": "120,300",
+      "price": "$20,750",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "3",
+      "image": "../images/tundra.jpg",
+      "make": "Toyota",
+      "model": "Tundra",
+      "year": "2010",
+      "miles": "150,000",
+      "price": "$25,000",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "4",
+      "image": "../images/silverado.jpg",
+      "make": "Chevrolet",
+      "model": "Silverado 1500",
+      "year": "2002",
+      "miles": "65,000",
+      "price": "$15,400",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "5",
+      "image": "../images/frontier.jpg",
+      "make": "Nissan",
+      "model": "Frontier",
+      "year": "1998",
+      "miles": "200,000",
+      "price": "$14,000",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "6",
+      "image": "../images/sierra.jpg",
+      "make": "GMC",
+      "model": "Sierra 1500",
+      "year": "2004",
+      "miles": "75,000",
+      "price": "$17,000",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "7",
+      "image": "../images/silverado.jpg",
+      "make": "Chevrolet",
+      "model": "Colorado",
+      "year": "2005",
+      "miles": "125,300",
+      "price": "$22,999",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+      
+    },
+    {
+      "id": "8",
+      "image": "../images/frontier.jpg",
+      "make": "Nissan",
+      "model": "Titan",
+      "year": "2003",
+      "miles": "80,000",
+      "price": "$19,225",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+    {
+      "id": "9",
+      "image": "../images/raider.jpg",
+      "make": "Mitsubishi",
+      "model": "Raider",
+      "year": "2009",
+      "miles": "113,225",
+      "price": "$24,500",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    },
+
+    {
+      "id": "10",
+      "image": "../images/raider.jpg",
+      "make": "Mitsubishi",
+      "model": "Raider",
+      "year": "2009",
+      "miles": "113,225",
+      "price": "$24,500",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+    }
+  ]
+}

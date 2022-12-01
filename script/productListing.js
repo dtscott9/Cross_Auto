@@ -1,4 +1,11 @@
-const json = "json/trucks.json";
+"use strict";
+const jsonVar = localStorage.getItem("type");
+localStorage.setItem("product", jsonVar);
+console.log(jsonVar);
+
+document.querySelector(".listingsHeader").textContent = `Used ${jsonVar}`;
+
+const json = `json/${jsonVar}.json`;
 //Fetching JSON data
 fetch(json)
   .then(function (response) {
@@ -38,5 +45,8 @@ fetch(json)
     cardLink.appendChild(displayCard);
 
     document.querySelector(".productCard").appendChild(cardLink);
-  }
 
+    cardLink.addEventListener("click", ()=>{
+      localStorage.setItem("productId", vehicles.id);
+    })
+  }
