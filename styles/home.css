@@ -150,12 +150,32 @@ footer nav ul li {
   justify-content: center;
 }
 
+.slogan {
+  z-index: 1;
+  color: white;
+  grid-column: 1/5;
+  grid-row: 1;
+  margin-top: 115px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 80px;
+}
+
+#search {
+  z-index: 1;
+  grid-column: 2/4;
+  grid-row: 4;
+  padding-bottom: 1em;
+  margin-bottom: 100px
+}
+
 .carSelection {
   width: 100%;
   margin: 0 auto;
+  margin-bottom: 20px;
   z-index: 1;
   grid-column: 2/4;
-  grid-row: 2/4;
+  grid-row: 3/4;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -195,12 +215,16 @@ footer nav ul li {
 }
 
 .sub_vehicle {
-  width: 100%;
+  width: 80%;
   height: 100%;
   z-index: 999;
   margin: 0 auto;
+  border-radius: 30px;
 }
 
+.slogan {
+  text-shadow: 2px 2px 5px #555;
+}
 
 body {
   /* background-color: rgb(189, 189, 189); */
