@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com'boxicons@2.1.1/css/boxicons.min.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="/styles/chatbox.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <title>Home Page</title>
 </head>
@@ -14,61 +16,48 @@
             <!-- chat box -->
             <div class="chatbox-wrapper">
                 <div class="chatbox-toggle">
-                    <i class="bx bx-message-dots"></i>
+                    <i class='bx bxs-message-rounded-detail' ></i>
                 </div>
-                    <div class="chatbox-message-wrapper">
-                        <div class="chatbox-message-header">
-                            <div class="chatbox-message-profile">
-                                <img src="images/chat_box_user.jpg" alt="" class="chatbox-message-image">
-                                <div>
-                                    <h4 class="chatbox-message-name">
-                                        Grant Cross
-                                    </h4>
-                                    <p class="chatbox-message-status">
-                                        online
-                                    </p>
-                                </div>
+                <div class="chatbox-message-wrapper">
+                    <div class="chatbox-message-header">
+                        <div class="img_and_name_status">
+                            <div class="chatbox-message-image">
+                                <img src="/images/chatbox_photo.jpg" alt="">   
                             </div>
-                            <div class="chatbox-message-dropdown">
-                                <i class="bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle"></i>
-                                <ul class="chatbox-message-dropdown-menu">
-                                    <li>
-                                        <a href="#">Search</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Report</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                        </div>
-                        <div class="chatbox-message-contnet">
-                            <div class="chatbox-message-item sent">
-                                <span class="chatbox-message-item-text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aspernatur?
-                                </span>
-                                <span class="chatbox-message-item-time">
-                                    8:30
-                                </span>
-                            </div>
-                            <div class="chatbox-message-item recieved">
-                                <span class="chatbox-message-item-text">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, aspernatur?
-                                </span>
-                                <span class="chatbox-message-item-time">
-                                    8:30
-                                </span>
+                            <div>
+                                <h4 class="chatbox-message-name">Grant Cross</h4> 
+                                <p class="chatbox-message-status">online</p>
                             </div>
                         </div>
-                        <div class="chatbox-message-bottom">
-                            <form action="#" class="chatbox-message-form">
-                                <textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
-                                <button type="submit" class="chatbox-message-submit"><img src="" alt=""></button>
-                            </form>
+                        <div class="chatbox-message-dropdown">
+                            <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle' ></i>
+                            <ul class="chatbox-message-dropdown-menu">
+                                <li>
+                                    <a href="#">Search</a>
+                                </li>
+                                <li>
+                                    <a href="#">Report</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </div>    
+                    <div class="chatbox-message-content">
+                        <h4 class="chatbox-message-no-message">We would love to hear from you!</h4>
+                        
+                    </div>
+                    <div class="chatbox-message-bottom">
+                        <form action="#" class="chatbox-message-form"><textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+                        <button type="submit" class="chatbox-message-submit">
+                            <i class='bx bx-send' ></i>
+                        </button>
+                    </form>
+                    </div>
+        
+                </div>
             </div>
+        
+        
+            <script src="/script/chatbox.js"></script>
     <!-- end chatbox -->
       
     <div>
