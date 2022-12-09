@@ -12,12 +12,61 @@
       href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/styles/chatbox.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com'boxicons@2.1.1/css/boxicons.min.css">
 
     <title>Home Page</title>
   </head>
   <body>
     <header id="main-header"></header>
 
+                <!-- chat box -->
+                <div class="chatbox-wrapper">
+                    <div class="chatbox-toggle">
+                        <i class='bx bxs-message-rounded-detail' ></i>
+                    </div>
+                    <div class="chatbox-message-wrapper">
+                        <div class="chatbox-message-header">
+                            <div class="img_and_name_status">
+                                <div class="chatbox-message-image">
+                                    <img src="/images/chatbox_photo.jpg" alt="">   
+                                </div>
+                                <div>
+                                    <h4 class="chatbox-message-name">Grant Cross</h4> 
+                                    <p class="chatbox-message-status">online</p>
+                                </div>
+                            </div>
+                            <div class="chatbox-message-dropdown">
+                                <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle' ></i>
+                                <ul class="chatbox-message-dropdown-menu">
+                                    <li>
+                                        <a href="#">Search</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Report</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="chatbox-message-content">
+                            <h4 class="chatbox-message-no-message">We would love to hear from you!</h4>
+                            
+                        </div>
+                        <div class="chatbox-message-bottom">
+                            <form action="#" class="chatbox-message-form"><textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+                            <button type="submit" class="chatbox-message-submit">
+                                <i class='bx bx-send' ></i>
+                            </button>
+                        </form>
+                        </div>
+            
+                    </div>
+                </div>
+            
+            
+                <script src="/script/chatbox.js"></script>
+        <!-- end chatbox -->
     <div class="banner">
       <img
         class="hero_image_specs"
@@ -32,6 +81,7 @@
             href="productListing.html"
             ><img class="sub_vehicle" id="Trucks" src="images/sub_truck.jpg" alt=""
           /></a>
+
 
           <a
             href="productListing.html"
