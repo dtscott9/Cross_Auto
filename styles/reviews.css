@@ -1,41 +1,21 @@
-.reviews {
-    display: grid;
+#reviews {
+    flex-wrap: wrap;
 }
 
-#reviews__card_i {
-    /* max-width: 250px; */
-    padding: 7.5px;
-    grid-row: 1;
-    grid-column: 1;
-    text-align: center;
+.avatar {
+    max-width: 50px;
+    max-height: 50px;
+    border: 1px solid #022542;
+    border-radius: 50%;
 }
 
-#reviews__card_ii {
-    /* max-width: 250px; */
-    padding: 7.5px;
-    grid-row: 1;
-    grid-column: 2;
-    text-align: center;
+.nameloc {
+    position: relative;
+    bottom: 20px;
+    padding-left: 4px;
 }
 
-#reviews__card_iii {
-    /* max-width: 250px; */
-    padding: 7.5px;
-    grid-row: 2;
-    grid-column: 1;
-    text-align: center;
+.nameloc img {
+    max-width: 100px;
+    padding-left: 4px;
 }
-
-#reviews__card_iv {
-    /* max-width: 250px; */
-    padding: 7.5px;
-    grid-row: 2;
-    grid-column: 2;
-    text-align: center;
-}
-
-/* .reviews__content {} */
-
-/* .reviews__content-name {} */
-
-/* .reviews__content-city {} */
