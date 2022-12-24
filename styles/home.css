@@ -520,3 +520,48 @@ chatbox-message-header{
     box-shadow: .25rem .25rem 1.5rem rgba(0, 0, 0, .05);
 }
 /* chatbox */
+
+/*Loan Estimator*/
+.loanHero {
+  text-align: center;
+  font-family: var(--main-font);
+}
+
+.calculator form {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.calculator form label {
+  margin-top: 1em;
+}
+
+.calculator form input, select{
+  width: 200px;
+}
+
+.submit{
+  margin-top: 1em;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.loanContent {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1em;
+  margin: 0 auto;
+  width: 550px;
+}
+
+hr
+{
+border:solid 1px black;
+width: 96%;
+color: black;
+height: 1px;
+
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/home.css">
     <title>Document</title>
 </head>
 <body>
@@ -40,7 +40,58 @@
           </ul>
       </nav>
       </header>
-      <h1>Loan Estimator</h1>
+      <main>
+      <h1 class="loanHero">Loan Estimator</h1>
+      <div class="loanContent">
+      <div class="calculator">
+        <form class="loanEstimator">
+          <label for="price">Listed Price</label>
+          <input id="price" type="number" name="price" value=0 required>
+          <label for="downPayment">Down Payment</label>
+          <input id="downPayment" type="number" name="downPayment" value=0 required>
+          <label for="tradeValue">Trade In Value</label>
+          <input id="tradeValue" type="number" name="tradeValue" value=0 required>
+          <label for="taxValue">Estimated Sales Tax (Percentage)</label>
+          <input id="taxValue" type="number" name="tradeValue" value=0 required>
+          <!-- <label for="interestValue">Estimated Interest Rate (Percentage)</label>
+          <input id="interestValue" type="number" name="interestValue" value=0 required> -->
+          <label for="creditScore">Credit Score</label>
+          <select id="ccOptions">
+            <option>Excellent (750-850)</option>
+            <option>Good (650-750)</option>
+            <option>Average (550-650)</option>
+            <option>Below Average (450-550)</option>
+          </select>
+          <label for="termOptions">Loan Term (months)</label>
+          <select id="termOptions">
+            <option>36</option>
+            <option>48</option>
+            <option>60</option>
+            <option>72</option>
+          </select>
+          <!-- <input id="submitButton" type="submit"> -->
+        </form>
+        <button class="submit">Calculate</button>
+      </div>
+      <div class="results">
+        <label>Vehicle Price</label>
+        <h3>$<span id="priceResult"></span></h3>
+        <label>Down Payment</label>
+        <h3>-$<span id="downResult"></span></h3>
+        <label>Trade in Value</label>
+        <h3>-$<span id="tradeResult"></span></h3>
+        <label>Total Interest Paid (<span id="rate"></span>% each month)/Additional Fees</label>
+        <h3>+$<span id="interestResult"></span></h3>
+        <label>Sales Tax (<span id="tax"></span>%)</label>
+        <h3>+$<span id="taxResult"></span></h3>
+        <label>Total Amount</label>
+        <h3>$<span id="totalResult"></span></h3>
+      <hr>
+     <h1>$<span id="mp"></span>/mo</h1>
+
+      </div>
+      </div>
+      </main>
       <footer>
         <div id="legal">
           &copy; 2022 Cross Auto. All Rights Reserved.
@@ -62,5 +113,6 @@
         <div>
         </div>
     </footer>
+    <script src="script/loanEstimator.js"></script>
 </body>
 </html>
