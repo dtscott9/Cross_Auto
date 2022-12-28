@@ -55,10 +55,11 @@ function formSubmit() {
     for (let i=0; i < loanPeriod; i++) {
         const interest = (totalValue * (interestRate/100))/12;
         const monthlyPayment = totalValue/loanPeriod;
-        const trueMp = monthlyPayment - interest;
+        const trueMp = monthlyPayment + interest;
         totalInterest += interest;
 
         totalValue -= trueMp;
+        console.log(totalValue);
         console.log(interest);
     
     }
