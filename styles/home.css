@@ -322,9 +322,9 @@ img.right-button {
   font-family: var(--main-font);
 }
 
-.productCard img {
+/* .productCard img {
   width: 300px;
-}
+} */
 
 .productCard {
   display: flex;
@@ -342,8 +342,8 @@ img.right-button {
 .productCard img {
   padding: 0;
   border-radius: 10px 10px 0 0;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: rgb(126, 126, 126);
 }
 
@@ -354,8 +354,8 @@ img.right-button {
   border-style: solid;
   border-width: 1px;
   border-color: #9a9b9b;
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   transition: all 1s ease 0s;
 }
 
