@@ -1,0 +1,105 @@
+{
+    "vehicles": [
+      {
+        "id": "0",
+        "image": "../images/Sedans/IMG_1137.jpeg",
+        "make": "BMW",
+        "model": "5 Series",
+        "year": "2012",
+        "miles": "45,000",
+        "price": "$24,790"
+      },
+      {
+        "id": "1",
+        "image": "../images/Sedans/IMG_1138.jpeg",
+        "make": "Audi",
+        "model": "S6",
+        "year": "2019",
+        "miles": "30,000",
+        "price": "$70,500"
+      },
+      {
+        "id": "2",
+        "image": "../images/Sedans/IMG_1139.jpeg",
+        "make": "BMW",
+        "model": "2 Series",
+        "year": "2018",
+        "miles": "80,000",
+        "price": "$75,750"
+      },
+      {
+        "id": "3",
+        "image": "../images/Sedans/IMG_1140.jpeg",
+        "make": "BMW",
+        "model": "8 Series",
+        "year": "2020",
+        "miles": "10,000",
+        "price": "$80,000"
+      },
+      {
+        "id": "4",
+        "image": "../images/Sedans/IMG_1141.jpeg",
+        "make": "Audi",
+        "model": "e-Tron GT",
+        "year": "2015",
+        "miles": "50,000",
+        "price": "$65,400"
+      },
+      {
+        "id": "5",
+        "image": "../images/Sedans/IMG_1142.jpeg",
+        "make": "Dodge",
+        "model": "Challenger",
+        "year": "2012",
+        "miles": "100,000",
+        "price": "$16,000"
+      },
+      {
+        "id": "6",
+        "image": "../images/Sedans/IMG_1143.jpeg",
+        "make": "Audi",
+        "model": "A6",
+        "year": "2014",
+        "miles": "87,000",
+        "price": "$18,000"
+      },
+      {
+        "id": "7",
+        "image": "../images/Sedans/IMG_1144.jpeg",
+        "make": "Toyota",
+        "model": "Corola",
+        "year": "1998",
+        "miles": "150,300",
+        "price": "$10,999"
+      },
+      {
+        "id": "8",
+        "image": "../images/Sedans/IMG_1145.jpeg",
+        "make": "Volkswagen",
+        "model": "Passat",
+        "year": "1990",
+        "miles": "120,000",
+        "price": "$12,000"
+      },
+      {
+        "id": "9",
+        "image": "../images/Sedans/IMG_1146.jpeg",
+        "make": "Maserati",
+        "model": "Quattroporte",
+        "year": "2017",
+        "miles": "45,000",
+        "price": "$50,990"
+      },
+  
+      {
+        "id": "10",
+        "image": "../images/Sedans/IMG_1147.jpeg",
+        "make": "Toyota",
+        "model": "Avalon",
+        "year": "2020",
+        "miles": "42,000",
+        "price": "$40,500"
+      }
+    ]
+  }
+  
