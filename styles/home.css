@@ -404,6 +404,42 @@ h1 {
   width: 500px;
 }
 
+.contactSeller form {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 1em;
+}
+
+.contactSeller input {
+  width: 50%;
+}
+
+.contactSeller textarea {
+  height: 100px;
+}
+
+.contactSeller label {
+  margin-top: 10px;
+}
+
+#submitToSeller {
+  margin-top: 20px;
+  color: white;
+  background-color: #14b7a9;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-family: var(--main-font);
+}
+
+#finance {
+  color: white;
+  background-color: #034A83;
+  font-size: 15px;
+  height: 40px;
+  border: none;
+}
+
 /* ChatBox */
 
 

@@ -20,7 +20,14 @@ function displayProduct(vehicles) {
             document.querySelector(".carImg").setAttribute('src', vehicle.image);
             document.querySelector(".price").textContent = vehicle.price;
             document.querySelector(".miles").textContent = `${vehicle.miles} mi`;
-            document.querySelector(".desc").textContent = vehicle.desc;
+            const button = document.querySelector("#finance");
+            let loan = document.querySelector(".price").textContent;
+            let newLoan = loan.replace("$", "")
+            let finalLoan = newLoan.replace(",", "");
+            button.addEventListener("click", ()=> {
+                localStorage.setItem("loanAmount", finalLoan);
+                location.href = "../loanEstimator.html";
+            });
         }
         
     });
