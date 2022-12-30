@@ -21,7 +21,7 @@ fetch(json)
     //Creating html elements
     let displayCard = document.createElement('section');
     let image = document.createElement('img');
-    let make_year = document.createElement('h1');
+    let make_year = document.createElement('h2');
     let model = document.createElement('p');
     let price = document.createElement('h2');
     let miles = document.createElement('p');
