@@ -2,27 +2,27 @@
     "vehicles":[
       {
         "id": "1",
-        "image": "../images/Electric/IMG_1019.JPG",
-        "make": "Tesla",
-        "model": "Model Y",
-        "year": "2007",
-        "miles": "45,000",
-        "price": "$19,000",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+        "image": "../images/Hatchbacks/hatchbacks-1.jpeg",
+        "make": "Voltswagen",
+        "model": "hatchback",
+        "year": "2017",
+        "miles": "60,000",
+        "price": "$31,500",
+        "desc": "White, four door, Voltswagen Hatchback."
       },
       {
         "id": "2",
-        "image": "../images/Electric/IMG_1023.JPG",
-        "make": "Tesla",
-        "model": "Model S",
-        "year": "2012",
-        "miles": "120,300",
-        "price": "$20,750",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
+        "image": "../images/Hatchbacks/hatchbacks-2.jpeg",
+        "make": "Honda",
+        "model": "Accord",
+        "year": "2016",
+        "miles": "70,000",
+        "price": "$13,700",
+        "desc": "Red, four door, Honda Accord"
       },
       {
         "id": "3",
-        "image": "../images/Electric/IMG_1027.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-3 .jpeg",
         "make": "Tesla",
         "model": "Model 3",
         "year": "2010",
