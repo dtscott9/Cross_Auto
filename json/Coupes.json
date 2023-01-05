@@ -1,0 +1,105 @@
+{
+    "vehicles": [
+      {
+        "id": "0",
+        "image": "../images/Coupes/IMG_1216.jpeg",
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "year": "2020",
+        "miles": "60,000",
+        "price": "$23,990"
+      },
+      {
+        "id": "1",
+        "image": "../images/Coupes/IMG_1218.jpeg",
+        "make": "Mercedes-Bens",
+        "model": "CLA",
+        "year": "2014",
+        "miles": "45,000",
+        "price": "$22,500"
+      },
+      {
+        "id": "2",
+        "image": "../images/Coupes/IMG_1219.jpeg",
+        "make": "Audi",
+        "model": "R8",
+        "year": "2016",
+        "miles": "35,000",
+        "price": "$120,750"
+      },
+      {
+        "id": "3",
+        "image": "../images/Coupes/IMG_1220.jpeg",
+        "make": "Ford",
+        "model": "Shelby",
+        "year": "2018",
+        "miles": "1000",
+        "price": "$92,000"
+      },
+      {
+        "id": "4",
+        "image": "../images/Coupes/IMG_1239.jpeg",
+        "make": "Dodge",
+        "model": "Diplomat",
+        "year": "2002",
+        "miles": "65,000",
+        "price": "$15,400"
+      },
+      {
+        "id": "5",
+        "image": "../images/Coupes/IMG_1240.jpeg",
+        "make": "Ford",
+        "model": "200 CID I-6",
+        "year": "1966",
+        "miles": "200,000",
+        "price": "$75,000"
+      },
+      {
+        "id": "6",
+        "image": "../images/Coupes/IMG_1241.jpeg",
+        "make": "Dodge",
+        "model": "Shadow",
+        "year": "1994",
+        "miles": "95,000",
+        "price": "$18,000"
+      },
+      {
+        "id": "7",
+        "image": "../images/Coupes/IMG_1242.jpeg",
+        "make": "Porsche",
+        "model": "911",
+        "year": "2013",
+        "miles": "50,300",
+        "price": "$73,999"
+      },
+      {
+        "id": "8",
+        "image": "../images/Coupes/IMG_1243.jpeg",
+        "make": "Mercedes-Bens",
+        "model": "300SL",
+        "year": "1975",
+        "miles": "80,000",
+        "price": "$500,225"
+      },
+      {
+        "id": "9",
+        "image": "../images/Coupes/IMG_1216.jpeg",
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "year": "2020",
+        "miles": "60,000",
+        "price": "$23,990"
+      },
+  
+      {
+        "id": "10",
+        "image": "../images/Coupes/IMG_1218.jpeg",
+        "make": "Mercedes-Bens",
+        "model": "CLA",
+        "year": "2014",
+        "miles": "45,000",
+        "price": "$22,500"
+      }
+    ]
+  }
+  

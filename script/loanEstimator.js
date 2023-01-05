@@ -1,13 +1,29 @@
 
 const estimator = document.querySelector(".loanEstimator");
 
+const carPrice = localStorage.getItem("loanAmount");
+
+const priceValue = document.querySelector("#price");
+const DownValue = document.querySelector("#downPayment");
+const tradeValue = document.querySelector("#tradeValue");
+let estimatedTax = document.querySelector("#taxValue");
+estimatedTax.value = 6;
+
+if (carPrice > 0) {
+    priceValue.value = carPrice;
+    console.log(carPrice);
+}
+else {
+    priceValue.value = 0;
+    console.log(carPrice);
+}
+
 function formSubmit() {
-    const priceValue = document.querySelector("#price");
-    const DownValue = document.querySelector("#downPayment");
-    const tradeValue = document.querySelector("#tradeValue");
-    console.log(priceValue.value);
-    console.log(DownValue.value);
-    console.log(tradeValue.value);
+   
+    // console.log(priceValue.value);
+    // console.log(DownValue.value);
+    // console.log(tradeValue.value);
+
     //dispalying info
     const price = document.querySelector("#priceResult");
     const downPayment = document.querySelector("#downResult");

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
 :root {
   /* Settings */
   --spacing: 15px;
@@ -21,6 +23,10 @@ body {
   height: 100%;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--main-font);
 }
 
 /* Header and Footer */
@@ -322,9 +328,9 @@ img.right-button {
   font-family: var(--main-font);
 }
 
-.productCard img {
+/* .productCard img {
   width: 300px;
-}
+} */
 
 .productCard {
   display: flex;
@@ -342,8 +348,8 @@ img.right-button {
 .productCard img {
   padding: 0;
   border-radius: 10px 10px 0 0;
-  width: 300px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: rgb(126, 126, 126);
 }
 
@@ -354,8 +360,8 @@ img.right-button {
   border-style: solid;
   border-width: 1px;
   border-color: #9a9b9b;
-  width: 300px;
-  height: 400px;
+  width: 250px;
+  height: 450px;
   transition: all 1s ease 0s;
 }
 
@@ -396,6 +402,42 @@ h1 {
 
 .carImg {
   width: 500px;
+}
+
+.contactSeller form {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 1em;
+}
+
+.contactSeller input {
+  width: 50%;
+}
+
+.contactSeller textarea {
+  height: 100px;
+}
+
+.contactSeller label {
+  margin-top: 10px;
+}
+
+#submitToSeller {
+  margin-top: 20px;
+  color: white;
+  background-color: #14b7a9;
+  border: none;
+  width: 200px;
+  height: 50px;
+  font-family: var(--main-font);
+}
+
+#finance {
+  color: white;
+  background-color: #034A83;
+  font-size: 15px;
+  height: 40px;
+  border: none;
 }
 
 /* ChatBox */
@@ -707,6 +749,14 @@ a:not([class]) {
   grid-template-columns: auto;
 }
 
+.calculator {
+  border-style: solid;
+  border-width: 1px;
+  padding: 1em;
+  border-radius: 15px;
+  background-color: rgb(230, 230, 230);
+}
+
 .calculator form label {
   margin-top: 1em;
 }
@@ -717,6 +767,11 @@ a:not([class]) {
 
 .submit{
   margin-top: 1em;
+  color: white;
+  font-family: var(--main-font);
+  background-color: #034A83;
+  width: 150px;
+  height: 50px;
 }
 
 .results {
@@ -729,7 +784,9 @@ a:not([class]) {
   grid-template-columns: auto auto;
   grid-gap: 1em;
   margin: 0 auto;
-  width: 550px;
+  width: 800px;
+  border-style: solid;
+  padding: 1em;
 }
 
 hr
