@@ -8,6 +8,10 @@ const right_button = document.querySelector(".right-button");
 right_button.addEventListener("click", goRight);
 right_button.addEventListener("touchend", goRight);
 
+const left_button = document.querySelector(".left-button");
+left_button.addEventListener("click", goLeft);
+left_button.addEventListener("touchend", goLeft);
+
 function goLeft() {
   document.querySelector(".carousel").scrollLeft -= 400;
 }
