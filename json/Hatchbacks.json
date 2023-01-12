@@ -32,7 +32,7 @@
       },
       {
         "id": "4",
-        "image": "../images/Electric/IMG_1028.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-4.jpeg",
         "make": "Toyota",
         "model": "bZ4X",
         "year": "2002",
@@ -42,7 +42,7 @@
       },
       {
         "id": "5",
-        "image": "../images/Electric/IMG_1031.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-5.jpeg",
         "make": "Volvo",
         "model": "XC40 Recharge",
         "year": "1998",
@@ -52,7 +52,7 @@
       },
       {
         "id": "6",
-        "image": "../images/Electric/IMG_1034.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-6.jpeg",
         "make": "Volkswagen ID.4",
         "model": "Sierra 1500",
         "year": "2004",
@@ -62,7 +62,7 @@
       },
       {
         "id": "7",
-        "image": "../images/Electric/IMG_1017.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-7.jpeg",
         "make": "Rivian",
         "model": "R1T",
         "year": "2005",
@@ -73,7 +73,7 @@
       },
       {
         "id": "8",
-        "image": "../images/Electric/IMG_1019.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-8.jpeg",
         "make": "Rivian",
         "model": "R1S",
         "year": "2003",
@@ -83,7 +83,7 @@
       },
       {
         "id": "9",
-        "image": "../images/Electric/IMG_1023.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-9.jpeg",
         "make": "Subaru",
         "model": "Solterra",
         "year": "2009",
@@ -94,7 +94,7 @@
   
       {
         "id": "10",
-        "image": "../images/Electric/IMG_1027.JPG",
+        "image": "../images/Hatchbacks/hatchbacks-10.jpeg",
         "make": "Polestar",
         "model": "2",
         "year": "2009",
