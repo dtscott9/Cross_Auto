@@ -218,6 +218,8 @@ footer nav ul li {
   grid-column: 1/6;
   grid-row: 1/6;
   z-index: 0;
+  opacity: 0.75;
+  filter: brightness(50%);
 }
 
 .sub_vehicle {
