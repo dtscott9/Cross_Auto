@@ -1,0 +1,66 @@
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1, h2, p {
+    margin-bottom: 15px;
+}
+
+.contact-us h1 {
+    margin-top: 15px;
+}
+
+.contact-info {
+    margin-left: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+form {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    background-color: var(--alt-background-color);
+    font-family: var(--main-font);
+    color: var(--alt-font-color);
+}
+
+input {
+    width: 100%;
+    margin-top: 2.5px;
+}
+
+#name {
+    grid-row: 1;
+    grid-column: 1;
+    padding-bottom: 7.5px;
+}
+
+#subject {
+    grid-row: 2;
+    grid-column: 1;
+    padding-bottom: 7.5px;
+}
+
+#message {
+    grid-row: 3;
+    grid-column: 1;
+    padding-bottom: 7.5px;
+}
+
+#contact-form-submit {
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: right;
+    width: 200px;
+}
+
+form textarea {
+    resize: none;
+    width: 100%;
+    margin-top: 2.5px;
+}

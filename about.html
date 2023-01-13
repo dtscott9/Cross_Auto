@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="styles/normalize.css">
   <!-- <link rel="stylesheet" href="styles/main.css"> -->
   <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/about.css">
 </head>
 <body>
   <header>
@@ -59,11 +60,31 @@
       <h2>Dealership History</h2>
       <p>Grant Cross was born and raised in Southeast Idaho, where he worked his way from selling western wear to building a chain of RV dealerships to becoming President of one of the United States' largest RV Corporations. After deciding to leave the RV world to establish a family business in the car industry, he opened his first location in Rigby in 2008. Owing to the success and reputation of the dealership in Rigby, the family business expanded into a second dealership, opened in Blackfoot in 2016. Today, with sales and certified service departments working hard to provide exceptional customer service, they are the fastest growing dealership group in Southeast Idaho.</p>
     </section>
+    <hr>
     <section class="contact-us" id="contact-us">
       <h1>Contact Us</h1>
       <h2>Grant Cross, President</h2>
-      <p><strong>Phone: </strong>(480) 572-7172</p>
-      <p><strong>Email: </strong>crossg@crossauto.com</p>
+      <p class="contact-info"><strong>Phone: </strong>(480) 572-7172</p>
+      <p class="contact-info"><strong>Email: </strong>crossg@crossauto.com</p>
+      <p>
+        Email or message us with any questions or inquiries or call (480) 572-7172. We would be happy to answer your questions and set up a meeting with you. Cross Auto can help you find the right car!
+      </p>
+      <form method="GET" action="contact-us.html" id="contact-form">
+        <label id="name">
+            Name:<br />
+            <input type="text" name="name" placeholder="Name">
+        </label>
+        <label id="subject">
+            Subject:<br />
+            <input type="text" name="subject" placeholder="Subject">
+        </label>
+        <label id="message">
+            Message:<br />
+            <textarea name="message" placeholder="Insert text here."></textarea>
+        </label>
+        <input type="submit" value="Send Message" id="contact-form-submit">
+        <div id="contact-form-message"></div>
+      </form>
     </section>
   </main>
   <footer>
