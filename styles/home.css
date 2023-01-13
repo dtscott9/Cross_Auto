@@ -937,7 +937,12 @@ opacity: 0.3;
   }
 
   .hero_image_specs {
-    display: none;
+    opacity: .3;
+  }
+
+  .sub_vehicle {
+    border: solid;
+    border-color: black;
   }
 
   .slogan {
