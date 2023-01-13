@@ -93,6 +93,18 @@ header nav ul li {
   margin-right: 7.5px;
 }
 
+nav a {
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  
+  color: black;
+  /* transition: all 0.3s ease 0s; */
+}
+
 main {
   flex: 1;
   font-size: var(--font-size);
