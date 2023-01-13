@@ -105,6 +105,10 @@ nav a:hover {
   /* transition: all 0.3s ease 0s; */
 }
 
+.ham {
+  display: none;
+}
+
 main {
   flex: 1;
   font-size: var(--font-size);
@@ -395,11 +399,8 @@ img.right-button {
   background-color: rgb(126, 126, 126);
 }
 
-.productCard section p,
-h3,
-h2,
-h1 {
-  padding-left: 10px;
+.productCard section :not(img){
+  padding-left: 5px;
 }
 
 .productCard section div {
@@ -467,11 +468,11 @@ h1 {
 
 
 /* Box sizing rules */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 
 /* Remove default margin */
 body,
@@ -876,6 +877,7 @@ opacity: 0.3;
   font-size: 20px;
   padding-left:200px;
   padding-right:200px;
+  padding-bottom: 10px;
 }
 
 
@@ -907,6 +909,69 @@ opacity: 0.3;
 
 /*Mobile View */
 @media screen and (max-width: 622px) {
+
+  /*Hamburger Menu*/
+  
+  .ham {
+    display: initial;
+  } 
+
+  .links li {
+    display: none;
+  }
+
+  .responsive li {
+    display: block;
+    position: sticky;
+  }
+
+  nav a:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  /*Index*/
+  .banner section {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .hero_image_specs {
+    display: none;
+  }
+
+  .slogan {
+    color: black;
+    font-size: 50px
+  }
+
+  .carSelection {
+    grid-column: 1/7;
+  }
+
+  .left-button {
+    width: 40px;
+  }
+
+  .right-button {
+    width: 40px;
+  }
+
+  .gray {
+    background-color: white;
+  }
+  
+
+
+  .gray h1 {
+    color: black;
+    padding: 20px;
+    font-size: 50px;
+  }
+
+  .gray section {
+    color: black;
+  }
 
   /*Product Info*/
   .productInfo{

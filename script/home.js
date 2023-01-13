@@ -72,7 +72,7 @@ export async function loadHeaderFooter() {
   renderWithTemplate(footer, footerElement);
 }
 
-loadHeaderFooter();
+
 
 
 
@@ -86,6 +86,14 @@ for (var i = 0; i < carSelection.length; i++) {
     localStorage.setItem("type", carChoice.id);
   });
 }
+
+const hamButton = document.querySelector(".ham");
+const navi = document.querySelector(".links")
+
+hamButton.addEventListener("click", ()=>{
+  navi.classList.toggle("responsive")
+},
+false);
 
 
 
