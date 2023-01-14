@@ -3,8 +3,8 @@
       {
         "id": "1",
         "image": "../images/Hatchbacks/hatchbacks-1.jpeg",
-        "make": "Voltswagen",
-        "model": "hatchback",
+        "make": "Volkswagen",
+        "model": "Golf GTI",
         "year": "2017",
         "miles": "60,000",
         "price": "$31,500",
