@@ -170,6 +170,8 @@ footer nav ul li {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
+  background-color: rgb(44, 42, 42);
+  width: 100%;
 }
 
 .slogan {
@@ -234,8 +236,9 @@ footer nav ul li {
   grid-column: 1/6;
   grid-row: 1/6;
   z-index: 0;
-  opacity: 0.75;
-  filter: brightness(50%);
+  background-color: rgb(18, 17, 17);
+  opacity:.3;
+  /* filter: brightness(50%); */
 }
 
 .sub_vehicle {
@@ -505,7 +508,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 
 }
 
