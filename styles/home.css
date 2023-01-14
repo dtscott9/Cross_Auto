@@ -558,11 +558,13 @@ a:not([class]) {
 .chatbox-wrapper {
 	z-index: 5000;
 	position: fixed;
-	bottom: 2rem;
+	bottom: 0.75rem; /* 2rem */
 	right: 2rem;
 	width: 4rem;
 	height: 4rem;
   font-family: (--main-font);
+  border: 1px solid #022542;
+  border-radius: 50%;
 }
 .chatbox-toggle {
 	width: 100%;
