@@ -244,6 +244,8 @@ footer nav ul li {
   z-index: 999;
   margin: 0 auto;
   border-radius: 30px;
+  border: solid;
+  border-color: black;
 }
 
 .slogan {
@@ -938,11 +940,6 @@ opacity: 0.3;
 
   .hero_image_specs {
     opacity: .3;
-  }
-
-  .sub_vehicle {
-    border: solid;
-    border-color: black;
   }
 
   .slogan {
