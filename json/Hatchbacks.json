@@ -23,11 +23,11 @@
       {
         "id": "3",
         "image": "../images/Hatchbacks/hatchbacks-3.jpeg",
-        "make": "Tesla",
-        "model": "Model 3",
-        "year": "2010",
-        "miles": "150,000",
-        "price": "$25,000",
+        "make": "Voltswagon",
+        "model": "Silverado",
+        "year": "2018",
+        "miles": "100,000",
+        "price": "$15,000",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere id erat vitae tempor. Sed ut ipsum malesuada, gravida risus id, vulputate ligula. Aliquam eget congue ligula. Phasellus molestie semper diam non vulputate. Nam pharetra odio neque, vel dictum enim sollicitudin non. Aliquam sed nisl vel ligula pulvinar congue in a turpis. Sed efficitur sem eros, et tempus nisl malesuada at. Duis ut ornare tortor. Vivamus pretium purus erat, vitae mattis odio efficitur non. Cras hendrerit velit quis ante pharetra scelerisque. Vivamus quis vestibulum tortor, sagittis luctus neque. Proin sit amet egestas purus, in rhoncus lectus. Aliquam eu lectus a erat blandit ullamcorper quis nec dui. Sed volutpat luctus magna et varius."
       },
       {

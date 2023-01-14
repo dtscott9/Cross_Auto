@@ -156,7 +156,7 @@ select {
 .img_and_name_status{
 	display:flex;
 	flex-direction: row;
-	justify-items: ;
+	justify-items: center;
 }
 
 .chatbox-message-name {
