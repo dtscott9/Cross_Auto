@@ -1,5 +1,9 @@
-main {
+/* main {
     margin: 200px;
+} */
+
+.loanPage {
+    display: grid;
 }
 
 @media screen and (max-width: 576px) {
