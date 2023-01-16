@@ -815,10 +815,15 @@ a:not([class]) {
   grid-template-columns: auto auto;
   grid-gap: 1em;
   margin: 0 auto;
-  width: 800px;
+  width: 100%;
   border-style: solid;
   padding: 1em;
 }
+
+.loanContent h2 {
+  width: 100%;
+}
+
 
 hr
 {
@@ -829,6 +834,9 @@ height: 1px;
 
 }
 
+#loanImage {
+  width: 100%;
+}
 
 
 
