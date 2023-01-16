@@ -2,7 +2,7 @@
   "vehicles": [
     {
       "id": "0",
-      "image": "../images/Trucks/IMG_1100.JPG",
+      "image": "images/Trucks/IMG_1100.JPG",
       "make": "Chevrolet",
       "model": "C/K",
       "year": "1975",
@@ -11,7 +11,7 @@
     },
     {
       "id": "1",
-      "image": "../images/Trucks/IMG_1101.JPG",
+      "image": "images/Trucks/IMG_1101.JPG",
       "make": "Ford",
       "model": "F-150",
       "year": "2007",
@@ -20,7 +20,7 @@
     },
     {
       "id": "2",
-      "image": "../images/Trucks/IMG_1102.JPG",
+      "image": "images/Trucks/IMG_1102.JPG",
       "make": "Toyota",
       "model": "Tacoma",
       "year": "2012",
@@ -29,7 +29,7 @@
     },
     {
       "id": "3",
-      "image": "../images/Trucks/IMG_1103.JPG",
+      "image": "images/Trucks/IMG_1103.JPG",
       "make": "Dodge",
       "model": "Ram 1500",
       "year": "2010",
@@ -38,7 +38,7 @@
     },
     {
       "id": "4",
-      "image": "../images/Trucks/IMG_1104.JPG",
+      "image": "images/Trucks/IMG_1104.JPG",
       "make": "Toyota",
       "model": "Tundra",
       "year": "2009",
@@ -47,7 +47,7 @@
     },
     {
       "id": "5",
-      "image": "../images/Trucks/IMG_1105.JPG",
+      "image": "images/Trucks/IMG_1105.JPG",
       "make": "Ford",
       "model": "Ranger",
       "year": "2010",
@@ -56,7 +56,7 @@
     },
     {
       "id": "6",
-      "image": "../images/Trucks/IMG_1106.JPG",
+      "image": "images/Trucks/IMG_1106.JPG",
       "make": "GMC",
       "model": "Sierra 1500",
       "year": "2004",
@@ -65,7 +65,7 @@
     },
     {
       "id": "7",
-      "image": "../images/Trucks/IMG_1108.JPG",
+      "image": "images/Trucks/IMG_1108.JPG",
       "make": "Jeep",
       "model": "Wrangler",
       "year": "2005",
@@ -74,7 +74,7 @@
     },
     {
       "id": "8",
-      "image": "../images/Trucks/IMG_1109.JPG",
+      "image": "images/Trucks/IMG_1109.JPG",
       "make": "Chevrolet",
       "model": "K10",
       "year": "1985",
@@ -83,7 +83,7 @@
     },
     {
       "id": "9",
-      "image": "../images/Trucks/IMG_1110.JPG",
+      "image": "images/Trucks/IMG_1110.JPG",
       "make": "Jeep",
       "model": "Gladiator",
       "year": "2009",
@@ -93,7 +93,7 @@
 
     {
       "id": "10",
-      "image": "../images/Trucks/IMG_1111.JPG",
+      "image": "images/Trucks/IMG_1111.JPG",
       "make": "Chevrolet",
       "model": "C10",
       "year": "1982",

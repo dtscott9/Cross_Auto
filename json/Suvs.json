@@ -2,7 +2,7 @@
     "vehicles": [
       {
         "id": "0",
-        "image": "../images/SUVs/IMG_1056.JPG",
+        "image": "images/SUVs/IMG_1056.JPG",
         "make": "Kia",
         "model": "Telluride",
         "year": "2005",
@@ -12,7 +12,7 @@
       },
       {
         "id": "1",
-        "image": "../images/SUVs/IMG_1057.JPG",
+        "image": "images/SUVs/IMG_1057.JPG",
         "make": "Toyota",
         "model": "Highlander",
         "year": "2007",
@@ -22,7 +22,7 @@
       },
       {
         "id": "2",
-        "image": "../images/SUVs/IMG_1058.JPG",
+        "image": "images/SUVs/IMG_1058.JPG",
         "make": "Hyundai",
         "model": "Santa Fe",
         "year": "2012",
@@ -32,7 +32,7 @@
       },
       {
         "id": "3",
-        "image": "../images/SUVs/IMG_1059.JPG",
+        "image": "images/SUVs/IMG_1059.JPG",
         "make": "Honda",
         "model": "Pilot",
         "year": "2010",
@@ -42,7 +42,7 @@
       },
       {
         "id": "4",
-        "image": "../images/SUVs/IMG_1060.JPG",
+        "image": "images/SUVs/IMG_1060.JPG",
         "make": "Ford",
         "model": "Explorer",
         "year": "2002",
@@ -52,7 +52,7 @@
       },
       {
         "id": "5",
-        "image": "../images/SUVs/IMG_1061.JPG",
+        "image": "images/SUVs/IMG_1061.JPG",
         "make": "Kia",
         "model": "Sorento",
         "year": "1998",
@@ -62,7 +62,7 @@
       },
       {
         "id": "6",
-        "image": "../images/SUVs/IMG_1062.JPG",
+        "image": "images/SUVs/IMG_1062.JPG",
         "make": "Dodge",
         "model": "Durango",
         "year": "2004",
@@ -72,7 +72,7 @@
       },
       {
         "id": "7",
-        "image": "../images/SUVs/IMG_1063.JPG",
+        "image": "images/SUVs/IMG_1063.JPG",
         "make": "Hyundai",
         "model": "Palisade",
         "year": "2005",
@@ -83,7 +83,7 @@
       },
       {
         "id": "8",
-        "image": "../images/SUVs/IMG_1064.JPG",
+        "image": "images/SUVs/IMG_1064.JPG",
         "make": "Chevrolet",
         "model": "Traverse",
         "year": "2003",
@@ -93,7 +93,7 @@
       },
       {
         "id": "9",
-        "image": "../images/SUVs/IMG_1065.JPG",
+        "image": "images/SUVs/IMG_1065.JPG",
         "make": "Subaru",
         "model": "Ascent",
         "year": "2009",
@@ -104,7 +104,7 @@
   
       {
         "id": "10",
-        "image": "../images/SUVs/IMG_1065.JPG",
+        "image": "images/SUVs/IMG_1065.JPG",
         "make": "Ford",
         "model": "Bronco",
         "year": "2009",

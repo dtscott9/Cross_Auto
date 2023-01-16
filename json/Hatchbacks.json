@@ -2,7 +2,7 @@
     "vehicles":[
       {
         "id": "1",
-        "image": "../images/Hatchbacks/hatchbacks-1.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-1.jpeg",
         "make": "Volkswagen",
         "model": "Golf GTI",
         "year": "2017",
@@ -12,7 +12,7 @@
       },
       {
         "id": "2",
-        "image": "../images/Hatchbacks/hatchbacks-2.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-2.jpeg",
         "make": "Honda",
         "model": "Accord",
         "year": "2016",
@@ -22,8 +22,8 @@
       },
       {
         "id": "3",
-        "image": "../images/Hatchbacks/hatchbacks-3.jpeg",
-        "make": "Voltswagon",
+        "image": "images/Hatchbacks/hatchbacks-3.jpeg",
+        "make": "Volkswagon",
         "model": "Silverado",
         "year": "2018",
         "miles": "100,000",
@@ -32,7 +32,7 @@
       },
       {
         "id": "4",
-        "image": "../images/Hatchbacks/hatchbacks-4.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-4.jpeg",
         "make": "Toyota",
         "model": "bZ4X",
         "year": "2002",
@@ -42,7 +42,7 @@
       },
       {
         "id": "5",
-        "image": "../images/Hatchbacks/hatchbacks-5.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-5.jpeg",
         "make": "Volvo",
         "model": "XC40 Recharge",
         "year": "1998",
@@ -52,7 +52,7 @@
       },
       {
         "id": "6",
-        "image": "../images/Hatchbacks/hatchbacks-6.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-6.jpeg",
         "make": "Volkswagen ID.4",
         "model": "Sierra 1500",
         "year": "2004",
@@ -62,7 +62,7 @@
       },
       {
         "id": "7",
-        "image": "../images/Hatchbacks/hatchbacks-7.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-7.jpeg",
         "make": "Rivian",
         "model": "R1T",
         "year": "2005",
@@ -73,7 +73,7 @@
       },
       {
         "id": "8",
-        "image": "../images/Hatchbacks/hatchbacks-8.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-8.jpeg",
         "make": "Rivian",
         "model": "R1S",
         "year": "2003",
@@ -83,7 +83,7 @@
       },
       {
         "id": "9",
-        "image": "../images/Hatchbacks/hatchbacks-9.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-9.jpeg",
         "make": "Subaru",
         "model": "Solterra",
         "year": "2009",
@@ -94,7 +94,7 @@
   
       {
         "id": "10",
-        "image": "../images/Hatchbacks/hatchbacks-10.jpeg",
+        "image": "images/Hatchbacks/hatchbacks-10.jpeg",
         "make": "Polestar",
         "model": "2",
         "year": "2009",

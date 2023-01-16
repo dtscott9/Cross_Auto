@@ -2,7 +2,7 @@
     "vehicles":[
       {
         "id": "1",
-        "image": "../images/Electric/IMG_1019.JPG",
+        "image": "images/Electric/IMG_1019.JPG",
         "make": "Tesla",
         "model": "Model Y",
         "year": "2007",
@@ -12,7 +12,7 @@
       },
       {
         "id": "2",
-        "image": "../images/Electric/IMG_1023.JPG",
+        "image": "images/Electric/IMG_1023.JPG",
         "make": "Tesla",
         "model": "Model S",
         "year": "2012",
@@ -22,7 +22,7 @@
       },
       {
         "id": "3",
-        "image": "../images/Electric/IMG_1027.JPG",
+        "image": "images/Electric/IMG_1027.JPG",
         "make": "Tesla",
         "model": "Model 3",
         "year": "2010",
@@ -32,7 +32,7 @@
       },
       {
         "id": "4",
-        "image": "../images/Electric/IMG_1028.JPG",
+        "image": "images/Electric/IMG_1028.JPG",
         "make": "Toyota",
         "model": "bZ4X",
         "year": "2002",
@@ -42,7 +42,7 @@
       },
       {
         "id": "5",
-        "image": "../images/Electric/IMG_1031.JPG",
+        "image": "images/Electric/IMG_1031.JPG",
         "make": "Volvo",
         "model": "XC40 Recharge",
         "year": "1998",
@@ -52,7 +52,7 @@
       },
       {
         "id": "6",
-        "image": "../images/Electric/IMG_1034.JPG",
+        "image": "images/Electric/IMG_1034.JPG",
         "make": "Volkswagen ID.4",
         "model": "Sierra 1500",
         "year": "2004",
@@ -62,7 +62,7 @@
       },
       {
         "id": "7",
-        "image": "../images/Electric/IMG_1017.JPG",
+        "image": "images/Electric/IMG_1017.JPG",
         "make": "Rivian",
         "model": "R1T",
         "year": "2005",
@@ -73,7 +73,7 @@
       },
       {
         "id": "8",
-        "image": "../images/Electric/IMG_1019.JPG",
+        "image": "images/Electric/IMG_1019.JPG",
         "make": "Rivian",
         "model": "R1S",
         "year": "2003",
@@ -83,7 +83,7 @@
       },
       {
         "id": "9",
-        "image": "../images/Electric/IMG_1023.JPG",
+        "image": "images/Electric/IMG_1023.JPG",
         "make": "Subaru",
         "model": "Solterra",
         "year": "2009",
@@ -94,7 +94,7 @@
   
       {
         "id": "10",
-        "image": "../images/Electric/IMG_1027.JPG",
+        "image": "images/Electric/IMG_1027.JPG",
         "make": "Polestar",
         "model": "2",
         "year": "2009",

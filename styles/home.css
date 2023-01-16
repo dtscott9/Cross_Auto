@@ -406,6 +406,7 @@ img.right-button {
 
 .productCard section :not(img){
   padding-left: 5px;
+  padding-top: 5px;
 }
 
 .productCard section div {
