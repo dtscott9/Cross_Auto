@@ -26,7 +26,7 @@ function displayProduct(vehicles) {
             let finalLoan = newLoan.replace(",", "");
             button.addEventListener("click", ()=> {
                 localStorage.setItem("loanAmount", finalLoan);
-                location.href = "../loanEstimator.html";
+                location.href = "loanEstimator.html";
             });
         }
         
