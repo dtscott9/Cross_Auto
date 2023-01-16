@@ -29,7 +29,7 @@ fetch(json)
     let cardLink = document.createElement('a');
     image.setAttribute('src', vehicles.image)
     image.setAttribute('alt', vehicles.make + ' ' + vehicles.model)
-    cardLink.setAttribute('href', "../product.html");
+    cardLink.setAttribute('href', "product.html");
     make_year.textContent = vehicles.year + ' ' + vehicles.make;
     model.textContent = vehicles.model;
     miles.textContent = vehicles.miles + ' ' + 'mi';
