@@ -113,8 +113,8 @@ main {
   flex: 1;
   font-size: var(--font-size);
   font-family: var(--main-font);
-  padding-top: var(--spacing);
-  padding-bottom: var(--spacing);
+  /* padding-top: var(--spacing);
+  padding-bottom: var(--spacing); */
   /* padding-left: 250px;
   padding-right: 250px; */
   color: var(--font-color);
@@ -774,11 +774,14 @@ a:not([class]) {
 .loanHero {
   text-align: center;
   font-family: var(--main-font);
+  color: white;
+  font-size: 60px;
 }
 
 .calculator form {
   display: grid;
   grid-template-columns: auto;
+  font-size: 25px;
 }
 
 .calculator {
@@ -787,6 +790,7 @@ a:not([class]) {
   padding: 1em;
   border-radius: 15px;
   background-color: rgb(230, 230, 230);
+  color: black;
 }
 
 .calculator form label {
@@ -809,6 +813,7 @@ a:not([class]) {
 .results {
   display: grid;
   grid-template-columns: auto;
+  font-size: 25px;
 }
 
 .loanContent {
@@ -819,6 +824,7 @@ a:not([class]) {
   width: 100%;
   border-style: solid;
   padding: 1em;
+  color: white;
 }
 
 .loanContent h2 {
@@ -828,17 +834,32 @@ a:not([class]) {
 
 hr
 {
-border:solid 1px black;
+border:solid 1px white;
 width: 96%;
-color: black;
+color: white;
 height: 1px;
 
 }
 
-#loanImage {
-  width: 100%;
+.loanPage {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: #222;
 }
 
+#loanImage {
+  grid-column: 1/6;
+  grid-row: 1/6;
+  z-index: 0;
+  width: 100%;
+  opacity: .3;
+}
+
+.loanP {
+  grid-column: 2/5;
+  grid-row: 2;
+  z-index: 1;
+}
 
 
 /* reviews work checked out */
