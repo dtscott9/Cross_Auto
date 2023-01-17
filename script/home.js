@@ -95,6 +95,77 @@ hamButton.addEventListener("click", ()=>{
 },
 false);
 
+document.querySelector("#slide1").addEventListener("click", () => {
+  localStorage.setItem("product", "Coupes")
+        localStorage.setItem("productId", "0")
+        location.href = "product.html";
+});
+document.querySelector("#slide2").addEventListener("click", () => {
+  localStorage.setItem("product", "Electric")
+        localStorage.setItem("productId", "7")
+        location.href = "product.html";
+});
+
+document.querySelector("#slide3").addEventListener("click", () => {
+  localStorage.setItem("product", "Hatchbacks")
+        localStorage.setItem("productId", "3")
+        location.href = "product.html";
+});
+document.querySelector("#slide4").addEventListener("click", () => {
+  localStorage.setItem("product", "Sedans")
+        localStorage.setItem("productId", "0")
+        location.href = "product.html";
+});
+document.querySelector("#slide5").addEventListener("click", () => {
+  localStorage.setItem("product", "SUVs")
+        localStorage.setItem("productId", "0")
+        location.href = "product.html";
+});
+document.querySelector("#slide6").addEventListener("click", () => {
+  localStorage.setItem("product", "Coupes")
+        localStorage.setItem("productId", "1")
+        location.href = "product.html";
+});
+document.querySelector("#slide7").addEventListener("click", () => {
+  localStorage.setItem("product", "Electric")
+        localStorage.setItem("productId", "1")
+        location.href = "product.html";
+});
+document.querySelector("#slide8").addEventListener("click", () => {
+  localStorage.setItem("product", "Hatchbacks")
+        localStorage.setItem("productId", "7")
+        location.href = "product.html";
+});
+document.querySelector("#slide9").addEventListener("click", () => {
+  localStorage.setItem("product", "Sedans")
+        localStorage.setItem("productId", "1")
+        location.href = "product.html";
+});
+document.querySelector("#slide10").addEventListener("click", () => {
+  localStorage.setItem("product", "SUVs")
+        localStorage.setItem("productId", "1")
+        location.href = "product.html";
+});
+document.querySelector("#slide11").addEventListener("click", () => {
+  localStorage.setItem("product", "Coupes")
+        localStorage.setItem("productId", "2")
+        location.href = "product.html";
+});
+document.querySelector("#slide12").addEventListener("click", () => {
+  localStorage.setItem("product", "Electric")
+        localStorage.setItem("productId", "2")
+        location.href = "product.html";
+});
+document.querySelector("#slide13").addEventListener("click", () => {
+  localStorage.setItem("product", "Hatchbacks")
+        localStorage.setItem("productId", "6")
+        location.href = "product.html";
+});
+document.querySelector("#slide14").addEventListener("click", () => {
+  localStorage.setItem("product", "Sedans")
+        localStorage.setItem("productId", "2")
+        location.href = "product.html";
+});
 
 
 
